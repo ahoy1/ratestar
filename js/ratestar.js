@@ -26,8 +26,7 @@ var ratestar = {
 }
 
 $(function(){
-	ratestar.init(10, 5, 'ratestar');
-
+	ratestar.init(5, 0, 'ratestar');
 	//hover behavior for the stars themselves.
 	$('.star').hover(
 		function(){
@@ -38,6 +37,6 @@ $(function(){
 		}
 	);
 	$('.star').click(function(){
-		ratestar.updateStars($(this).attr('data-rating');, 'ratestar');
+		ratestar.updateStars($(this).attr('data-rating'), 'ratestar');
 	});
 });
