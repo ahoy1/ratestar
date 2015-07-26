@@ -17,3 +17,9 @@ Finally, add an element with id `ratestar` in your page where you want the eleme
 ```
 <div id="ratestar"></div>
 ```
+
+##Retrieving the rating
+You can retreive the rating from the element (for use in a form/etc) by calling:
+```
+ratestar.getRating();
+```
